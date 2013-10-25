@@ -118,8 +118,8 @@ public class TopicsFragment extends Fragment implements
 		// TODO Auto-generated method stub
 		new Thread() {
 			public void run() {
-				adapter = new TopicsAdapter(getActivity(),
-						ApiClient.getTopics(getActivity()));
+				topics = ApiClient.getTopics(getActivity());
+				adapter = new TopicsAdapter(getActivity(), topics);
 				handler.sendEmptyMessage(SET_TOPICS);
 			}
 		}.start();
