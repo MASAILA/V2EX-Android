@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#ececec</color>
+    <color name="list_item_bg">#eeeeee</color>
+    <color name="list_item_line">#dcdcdc</color>
+    <color name="list_item_username">#959595</color>
+    <color name="list_item_node">#535353</color>
+    <color name="list_item_point">#959595</color>
+    <color name="list_item_reply_bg">#bebdbd</color>
+    <color name="list_item_reply">#eeeeee</color>
+    <color name="list_item_time">#959595</color>
+    <color name="list_item_title">#535353</color>
+    <color name="list_item_content">#333333</color>
+    <color name="list_item_reply_time">#959595</color>
+    <color name="list_item_divider">#dbdbdb</color>
+    <color name="actionbar_bg">#535353</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="drawer_bg">#171717</color>
+    <color name="drawer_text">#ffffff</color>
+    <color name="drawer_divider">#171717</color>
+    <color name="drawer_item_bg">#303030</color>
+    <color name="topic_line">#bebdbd</color>
+    <color name="topic_bg">#f2f2f2</color>
+    <color name="topic_content">#333333</color>
+
+</resources>

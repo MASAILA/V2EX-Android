@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/topic_bg"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageView_avatar"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/avatar" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp" >
+
+            <TextView
+                android:id="@+id/textView_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="MASAILA"
+                android:textColor="@color/list_item_username"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_toRightOf="@+id/textView_username"
+                android:text="•"
+                android:textColor="@color/list_item_point"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_node"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/textView_point"
+                android:text="星期发现"
+                android:textColor="@color/list_item_node"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView_username"
+                android:layout_marginTop="2dp"
+                android:maxLines="2"
+                android:minLines="2"
+                android:text="[成都]出山地自行车一辆，成色新，价格好，详情请进"
+                android:textColor="@color/list_item_title" />
+
+            <TextView
+                android:id="@+id/textView_reply_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="5分钟前"
+                android:textColor="@color/list_item_reply_time"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/topic_line" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textColor="@color/topic_content"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="185次点击"
+            android:textColor="@color/list_item_reply_time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView_reply_count"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:background="@color/list_item_reply_bg"
+            android:gravity="center"
+            android:text="19条回复"
+            android:textColor="@color/list_item_reply"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/topic_line" >
+    </LinearLayout>
+
+</LinearLayout>
