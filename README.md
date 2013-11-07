@@ -3,4 +3,4 @@ V2EX-Android
 
 V2EX-Android
 需要依赖  ActionBar-PullToRefresh
-https://github.com
+https://github.com/chrisbanes/ActionBar-PullToRefresh
